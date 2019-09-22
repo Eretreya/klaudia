@@ -1,0 +1,22 @@
+#p1 {
+    background-color: #DDA0DD;
+    display: block;
+}
+#p2 {
+    background-color: ORCHID;
+}
+#inline-p1 {
+    background-color: MEDIUMPURPLE;
+    display:inline;
+}
+#inline-p2 {
+    background-color: INDIGO;
+}
+li {
+    background-color: MEDIUMSLATEBLUE;
+    display:inline-block;
+    width:20px;
+}
+#display-none{
+    display: none;
+}
