@@ -1,0 +1,9 @@
+#background-img{
+    background-image:url(../IMG/truskawki.jpg);
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 10% 10%;
+    background-attachment: fixed;
+
+}
