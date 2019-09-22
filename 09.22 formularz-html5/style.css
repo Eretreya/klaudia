@@ -1,0 +1,50 @@
+*{
+    background-color: #213b50;
+    color: #ffffff;
+    padding:2px;
+    margin: 0px;
+    font-size : 15px;
+}
+input {
+    background-color: #2b4a64;
+    border : none;
+    margin : 3px 2px 4px 2px;
+}
+
+textarea{
+    border : none;
+    background-color:  #2b4a64;
+    width:250px;
+height:100px;
+}
+textarea:hover{
+    background-color: #2b4a64;
+}
+
+input:hover {
+    background-color: #4e708c;
+    color: #ffffff;
+    border : 1px solid #ffffff;
+}
+input[type^="submit"] {
+background-color: rgb(39, 214, 33);
+padding:6px;
+font-weight: 700;
+margin :6px 2px;
+
+}
+form label {
+    display: block;
+}
+label[for^="male"],label[for^="female"] , label[for^="agreement"]{
+    display : inline;
+}
+label {
+    margin-bottom:4px;
+}
+label[for^="city"], label[for^="message"], p {
+    margin-bottom:6px;
+}
+textarea , select {
+    margin-bottom : 6px;
+}
