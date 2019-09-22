@@ -1,0 +1,10 @@
+/* #strawberry{
+    float: left;
+} */
+
+#strawberry2{
+    float: right;
+}
+p:last-child{
+    clear:both;
+}
