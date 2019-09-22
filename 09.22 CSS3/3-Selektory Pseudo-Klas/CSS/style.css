@@ -1,0 +1,24 @@
+#send:hover{
+    background-color: orangered;
+    border: 2px solid blue;
+}
+#name:focus{
+    font-size:30px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+.customer:first-child{
+    color:blueviolet;
+}
+.customer:nth-child(3) {
+    color: blue;
+}
+.customer:nth-last-child(5){
+    padding:10px;
+    border:1px solid orange;
+    text-decoration: underline blue;
+    text-transform:uppercase;
+}
+.customer:nth-child(2n-2){
+    background-color:burlywood
+}

@@ -1,0 +1,12 @@
+/* p {
+    background-color: aqua  !important;
+} */
+p#paragraph {
+    background-color: cadetblue;
+}
+p.paragraph {
+    background-color: blue;
+}
+p {
+    background-color:brown;
+}
