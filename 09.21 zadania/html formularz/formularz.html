@@ -7,22 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <form method="POST">
-        <label></label>
-        <input type="text" name="name" placeholder="Podaj imię">
-        <label></label>
-        <input type="text" name="surname" placeholder="Podaj nazwisko">
-        <label></label>
-        <input type="email" name="email" placeholder="email@domain.com">
-        <label></label>
-        <input type="number" name="phonenumber">
+    <form action="https://formspree.io/haluszkoklaudia@gmail.com" method="POST">
+            <label for="name">Imię</label>
+        <input type="text" name="name" id="name" placeholder="Podaj imię" required>
+            <label for="surname">Nazwisko</label>
+        <input type="text" name="surname" id="surname" placeholder="Podaj nazwisko">
+            <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="email@domain.com">
+        
+        <input type="number" id="phonenumber" name="phonenumber" placeholder="Numer telefonu">
         <select name="city">
             <option value="val1">Kraków</option>
             <option value="val2">Warszawa</option>
             <option value="val3">Gdańsk</option>
         </select>
-        <input type="radio" name="gender"><label name="gender">Kobieta</label>
-        <input type="radio" name="gender"><label for="gender">Mężczyzna</label>
+        <input type="radio" name="gender" id="kobieta">         <label for="kobieta">Kobieta</label>
+        <input type="radio" name="gender" id="mezczyzna">       <label for="mezczyzna">Mężczyzna</label>
+        <input type="checkbox" name="zgoda" id="zgoda">         <label for="zgoda">Wyrażam zgodę na .....</label>
+        <textarea  rows="5" cols="10" placeholder="Napisz nam swoje sugestie"></textarea>
+        <input type="submit">
     </form>
 </body>
 </html>
