@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+/* Border box pozwala na ułożenie paddingu wewnątrz elementu i nie zmienieniu określonego rozmiaru. Np.kwadrat o szerokosci 400px z paddingiem 50px nadal ma 400px szerokości. To zapobiega rozjeżdżaniu naszego layoutu. Magia. Czysta magia. Niestety albo stety margin nie jest brany pod uwagę, bejbe. */
+body {
+    background-color: lightcoral;
+    font-size:0;
+}
+.box {
+    font-size: 15px;
+    height: 300px;
+    width: 50%;
+    padding :50px;
+    float:left;
+    border: 10px solid black;
+}
