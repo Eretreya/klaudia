@@ -1,0 +1,28 @@
+img {
+    height:200px;
+    width:200px;
+    transition: all 1s;
+}
+
+.rotate img:hover {
+    transform: rotateY(50deg);
+}
+.translate img:hover {
+    transform: translateX(300px);
+}
+.scale img:hover {
+    position: relative;
+    transform: scale(1.75,1.75);
+    left:150px;
+}
+@keyframes resize{
+    0%, 100%{
+        transform: rotate(40deg);
+    }
+    50%{
+        transform:rotate(-40deg);
+    }
+}
+.animation img:hover{
+    animation: resize 2s infinite;
+}
