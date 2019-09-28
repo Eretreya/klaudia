@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+
+}
+.box{
+    font-size: 15px;
+    width:25%;
+    padding: 30px;
+    float: left;
+    font-family: sans-serif;
+    border :10px solid navy;
+}
+
+@media (max-width: 902px){
+    .box {
+        width:50%;
+        background-color: aquamarine;
+        color: azure;
+        font-size: 13px;
+    }
+}
+@media (max-width: 768px){
+    .box{
+        width:100%;
+        background-color: antiquewhite;
+        color: black;
+        border: 2px dashed grey;
+    }
+}
+@media (min-width:320px) and (max-width: 560px){
+    .box{
+        width: 100%;
+    }
+}
+
