@@ -4,16 +4,17 @@ body{
 .container{
     display: flex;
     border: 2px dotted navy;
-
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
 .flex-item{
     background-color: lightblue;
     border: 2px dashed blue;
     padding:15px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    flex-basis: 10%;
 }
 .flex-item:nth-child(2n-1){
     background-color: antiquewhite;
-    flex-basis: 30%;
+    flex-basis: 20%;
 }
