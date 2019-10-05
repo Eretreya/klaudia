@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +10,15 @@
 
     <title>Portfolio</title>
 </head>
+
 <body>
-<header>
-    <div class="headerstyling">
-    <h1>Front End Developer</h1>
-    <hr>
-    <p>HTML <span>&#8226;</span> CSS <span> &#8226; </span>JavaScript</p>
-    <button>Dowiedz się więcej</button>
-    <div>
+    <header>
+        <div class="headerstyling">
+            <h1 class="border-bottom">Front End Developer</h1>
+            <p>HTML <span>&#8226;</span> CSS <span> &#8226; </span>JavaScript</p>
+            <button class="button" id="more">Dowiedz się więcej</button>
+        </div>
+    </header>
     <nav class="nav">
         <ul>
             <li><a href="#">O mnie</a></li>
@@ -24,25 +26,97 @@
             <li><a href="#">Kontakt</a></li>
         </ul>
     </nav>
-    <section>
-        <div id="aboutme">
-        <h2>O nas</h2>
-        <img id="cvphoto" src="../porfolio/img/about.jpg" alt="CV picture of a woman">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem repellat aut distinctio. Deserunt mollitia quis veritatis aliquid distinctio eum soluta modi incidunt id est, officiis expedita repellat explicabo assumenda alias?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eum corporis recusandae mollitia quo, ad temporibus voluptates amet sint sapiente voluptate atque repudiandae explicabo sit numquam ut laudantium deleniti culpa.</p>
-        <button><a>Moje portfolio</a></button>
+
+    <section class="aboutme">
+        <div class="main-container">
+            <h2 class="border-bottom">O mnie</h2>
+            <img class="cvphoto" src="../porfolio/img/about.jpg" alt="CV picture of a woman">
+            <div class="aboutme-p">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem repellat aut distinctio. Deserunt
+                mollitia quis veritatis aliquid distinctio eum soluta modi incidunt id est, officiis expedita repellat
+                explicabo assumenda alias?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eum corporis recusandae mollitia quo, ad
+                temporibus voluptates amet sint sapiente voluptate atque repudiandae explicabo sit numquam ut laudantium
+                deleniti culpa.</p>
+            </div>
+            <a class="button">Moje portfolio</a>
         </div>
-    
+        </div>
     </section>
-    <section id="gallery">
+    <div class="gallerytitle">
+        <h2 class="border-bottom">Portfolio</h2>
+
+
+    </div>
+    <section class="gallery">
+        <div class="main-container">
+        <div class="galleryimg">
+            <a href="#"><img alt="photo for a gallery" src="img/portfolio/photo-1.jpg">
+                <h3>Zdjęcie 1</h3>
+            </a>
+            <a href="#"><img alt="photo for a gallery" src="img/portfolio/photo-2.jpg">
+                <h3>Zdjęcie 2</h3>
+            </a>
+            <a href="#"><img alt="photo for a gallery" src="img/portfolio/photo-3.jpg">
+                <h3>Zdjęcie 3</h3>
+            </a>
+            <a href="#"><img alt="photo for a gallery" src="img/portfolio/photo-4.jpg">
+                <h3>Zdjęcie 4</h3>
+            </a>
+            <a href="#"><img alt="photo for a gallery" src="img/portfolio/photo-5.jpg">
+                <h3>Zdjęcie 5</h3>
+            </a>
+            <a href="#"><img alt="photo for a gallery" src="img/portfolio/photo-6.jpg">
+                <h3>Zdjęcie 6</h3>
+            </a>
+            <a href="#"><img alt="photo for a gallery" src="img/portfolio/photo-7.jpg">
+                <h3>Zdjęcie 7</h3>
+            </a>
+            <a href="#"><img alt="photo for a gallery" src="img/portfolio/photo-8.jpg">
+                <h3>Zdjęcie 8</h3>
+            </a>
+            <a href="#"><img alt="photo for a gallery" src="img/portfolio/photo-9.jpg">
+                <h3>Zdjęcie 9</h3>
+            </a>
+            <a href="#"><img alt="photo for a gallery" src="img/portfolio/photo-10.jpg">
+                <h3>Zdjęcie 10</h3>
+            </a>
+            <a href="#"><img alt="photo for a gallery" src="img/portfolio/photo-11.jpg">
+                <h3>Zdjęcie 11</h3>
+            </a>
+            <a href="#"><img alt="photo for a gallery" src="img/portfolio/photo-12.jpg">
+                <h3>Zdjęcie 12</h3>
+            </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="title">
+            <h2 class="border-bottom">Kontakt</h2>
+        </div>
+        <form>
+            <input type="text" id="name" placeholder="Imię" required>
+            <input type="email" placeholder="E-mail" required>
+            <textarea placeholder="Wyślij wiadomość" rows="5"></textarea>
+            <input type="submit" value="WYŚLIJ WIADOMOŚĆ" class="button">
+        </form>
         <div>
-            <h2>Portfolio</h2>
-            <hr>
-            <article>
-                
-            </article>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-facebook-square"><a href="https://www.facebook.com/"></a></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
         </div>
     </section>
-</header>
+    <footer>
+        <small>
+            Copyright &#169; Akademia 108 - Szkoła Programowania
+        </small>
+    </footer>
+    <script>
+        document.getElementById("demo").innerHTML = "My First JavaScript";
+    </script>
 </body>
+
 </html>
