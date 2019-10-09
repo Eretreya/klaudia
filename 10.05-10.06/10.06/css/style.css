@@ -1,0 +1,22 @@
+html{
+scroll-behavior: smooth;    
+}
+body{
+    min-height: 400vh;
+    transition: all 0.6s ease-in-out;
+}
+body.scroll{
+    background-color: aquamarine;
+}
+body.scroll-2 {
+    background-color: rgb(157,243,161);
+}
+h1 {
+transition: all 0.3s ease-in-out;
+position: fixed;
+left:0;
+top:0;
+padding:25px;
+background-color: lightsalmon;
+z-index:5;
+}
