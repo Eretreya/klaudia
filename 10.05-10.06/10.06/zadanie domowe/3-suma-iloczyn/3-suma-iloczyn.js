@@ -18,3 +18,15 @@ const multiArray2 = (arrayFor) => {
 }
 
 multiArray2([1],[2],[3],[4],[5],[6]);
+
+function MultiAdd(multiArr){
+    let sumOf = 0;
+    let multi = 1;
+for (i=0; i < multiArr.length; i++){
+    sumOf += multiArr[i];
+    multi *= multiArr[i];
+}
+console.log(sumOf);
+console.log(multi);
+};
+MultiAdd([1,2,3,4,5,6]);

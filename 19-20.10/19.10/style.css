@@ -1,0 +1,19 @@
+body{
+  background-color: aquamarine;  
+}
+.cont-example {
+    background-color: blueviolet;
+    height: 300px;
+}
+.cont-fluid-example{
+    background-color: cornflowerblue;
+    height:300px;
+}
+.item {
+    height:400px;
+    background-color: darkcyan;
+    border: solid 1px black;
+}
+.item:nth-child(2n-1){
+    background-color: cyan;
+}

@@ -1,0 +1,87 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    font-size:14px;
+    
+}
+.fixed-width-container {
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+.form-container{
+    color:  #fff;
+}
+
+.navbar{
+    background-color: #444;
+    
+}
+.container-main-sizefix{
+    padding:50px;
+    max-width: 900px;
+}
+input{
+    margin : 10px 0;
+}
+.text-menu{
+    color:#c2c2c2;
+    padding-right:5px;
+}
+button{
+    background-color: #e38f42 ;
+    color:#fff;
+}
+a:hover{
+    color:#e38f42;
+}
+.button-black{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.main-container-background{
+    background-image: url(https://akademia108.pl/kurs-front-end/form-background.jpg);background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+form {
+    background-color: rgba(0, 0, 0, 0.3);  
+    padding:0;
+}
+.form-container{
+    font-size:15px;
+}
+.form-header {
+    max-height:120px;
+    background-color:rgba(0, 0, 0, 0.35);
+    padding: 0;
+    
+}
+
+.privacypolicy{
+    margin-top: 15px;
+}
+.privacypolicy a, .email{
+    color:#e38f42;
+}
+.form-body{
+    padding:20px;
+}
+.inspire-paragraph{
+    padding:50px;
+}
+h2{
+    padding-top:5px;
+}
+h1{
+    font-size: 36px ;
+    color:#fff;
+    font-weight: bold;
+}
+.right-paragraph{
+    color:#c2c2c2;
+    margin-top:120px;
+}
+footer{
+    background-color: #f8f8f8;
+    padding-top:40px;
+}
