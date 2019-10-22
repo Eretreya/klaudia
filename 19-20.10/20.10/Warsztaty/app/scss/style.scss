@@ -1,0 +1,98 @@
+@import "zmienne";
+*{
+   padding:0;
+   margin:0;
+}
+body{
+   font-family: 'Open Sans', sans-serif;
+   span{
+      color: $zolty;
+   }
+}
+.takadziwnapani{
+   background-image: url(../img/background.png);
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    color: white;
+    padding: 150px 10px;
+}
+.glownepudelko{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15%;
+    padding-top: 100px;
+}
+nav{
+   display: flex;
+   justify-content: space-around;
+    z-index: 1000;
+    position: absolute;
+    width: 100%;
+    color: white;
+    top:40px;
+    ul{
+      display: flex; 
+      align-items: flex-end;
+      
+   }
+   li{
+      width: 150px;
+      height: 100px;
+      list-style-type: none; 
+      margin: 0 80px;
+      
+   }
+   
+   i{
+      color:$zolty;
+      padding-right:10px;
+      
+   }
+}
+.formularz{
+   max-width:330px;
+   text-align: center;
+   margin-bottom:10%;
+      .wsrodkuformularza{
+         background-color: #001d8a;
+         padding:20px;
+         margin-top:20px;
+         input{
+            @include niceinputs
+         }
+         textarea{
+            @include niceinputs
+         }
+         input[type="submit"] {
+            background-color: $zolty ;
+            @include defaultbutton; 
+         }
+        .inputy{
+           margin:5px;
+        } 
+      }
+}
+footer{
+   .footercontainer{
+      width:70%;
+     margin: 0 auto;
+   }
+   background-color:#292929;
+   color:white;
+   text-align: center;
+   padding-bottom:20px;
+   i{
+      color: $zolty;
+      
+   }
+   .ikonkafooter1 , .ikonkafooter2{
+      display: inline-block;
+      padding: 2% 8%;
+      a{
+         display:block;
+      }
+   }
+}
+
+

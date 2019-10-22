@@ -1,0 +1,27 @@
+@import "zmienne";
+
+body {
+    background-color: lightblue;
+    color: $main-color;
+    font-size: $font-size;
+}
+@mixin linki-nav{
+    color:$bg-color;
+    background-color: lightcoral;
+    text-transform: uppercase;
+}
+
+nav {
+    ul{
+        margin: $font-size;
+        padding:0px;
+        list-style: none;
+        li{
+            display:inline-block;
+            background-color: lightcoral;
+            a{
+                @include linki-nav;
+            }
+        }
+    }
+}

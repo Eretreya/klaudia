@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+  body span {
+    color: #ecd407; }
+
+.takadziwnapani {
+  background-image: url(../img/background.png);
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  color: white;
+  padding: 150px 10px; }
+
+.glownepudelko {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15%;
+  padding-top: 100px; }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  z-index: 1000;
+  position: absolute;
+  width: 100%;
+  color: white;
+  top: 40px; }
+  nav ul {
+    display: flex;
+    align-items: flex-end; }
+  nav li {
+    width: 150px;
+    height: 100px;
+    list-style-type: none;
+    margin: 0 80px; }
+  nav i {
+    color: #ecd407;
+    padding-right: 10px; }
+
+.formularz {
+  max-width: 330px;
+  text-align: center;
+  margin-bottom: 10%; }
+  .formularz .wsrodkuformularza {
+    background-color: #001d8a;
+    padding: 20px;
+    margin-top: 20px; }
+    .formularz .wsrodkuformularza input {
+      width: 95%;
+      padding: 5px;
+      margin-bottom: 5px; }
+    .formularz .wsrodkuformularza textarea {
+      width: 95%;
+      padding: 5px;
+      margin-bottom: 5px; }
+    .formularz .wsrodkuformularza input[type="submit"] {
+      background-color: #ecd407;
+      display: block;
+      border: none;
+      padding: 10px;
+      color: black;
+      width: 30%; }
+    .formularz .wsrodkuformularza .inputy {
+      margin: 5px; }
+
+footer {
+  background-color: #292929;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px; }
+  footer .footercontainer {
+    width: 70%;
+    margin: 0 auto; }
+  footer i {
+    color: #ecd407; }
+  footer .ikonkafooter1, footer .ikonkafooter2 {
+    display: inline-block;
+    padding: 2% 8%; }
+    footer .ikonkafooter1 a, footer .ikonkafooter2 a {
+      display: block; }

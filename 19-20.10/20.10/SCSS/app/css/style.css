@@ -1,0 +1,16 @@
+body {
+  background-color: lightblue;
+  color: royalblue;
+  font-size: 15px; }
+
+nav ul {
+  margin: 15px;
+  padding: 0px;
+  list-style: none; }
+  nav ul li {
+    display: inline-block;
+    background-color: lightcoral; }
+    nav ul li a {
+      color: #444141;
+      background-color: lightcoral;
+      text-transform: uppercase; }
